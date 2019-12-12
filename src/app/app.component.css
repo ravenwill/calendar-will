@@ -1,0 +1,60 @@
+.area {
+  width: 410px;
+}
+
+.calendario-area {
+  height: 310px;
+}
+
+.titulo-area {
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.titulo-dia-semana, 
+.titulo-dia {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  line-height: 11px;
+}
+
+.texto-cinza {
+  color: #707070;
+}
+
+.badge {
+  font-size: 8px;
+}
+
+.concluido {
+  opacity: 0.5;
+}
+
+
+.dia-atual {
+  background-color: #fff;
+}
+
+.p-badge {
+  margin: 0;
+  margin-top: 2px;
+  line-height: 11px;
+}
+
+
+.dia-atual .titulo-dia {
+    font-weight: 500;
+}
+
+.calendario-mesView-dia {
+  width: 14.28%;
+  height: 100%;
+  border: 1px solid #fff;
+  background-color: #eeeff4;
+}
+
+.calendario-mesView-row {
+  height: 20%;
+}
